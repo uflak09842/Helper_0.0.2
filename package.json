@@ -1,0 +1,33 @@
+{
+  "name": "helper",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "canskld",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.33.5",
+    "discord.js": "^13.8.0",
+    "fast-xml-parser": "^4.0.8",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "investing.js": "^1.0.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "moviedb-promise": "^3.1.15",
+    "node": "^16.17.0",
+    "node-virustotal": "^2.0.8",
+    "nodefs": "^0.0.2",
+    "path": "^0.12.7",
+    "quick.db": "^9.0.6",
+    "request": "^2.88.2",
+    "tcmb-doviz": "^1.1.2",
+    "virustotal-api": "^1.1.7",
+    "youtube-mp3-converter": "^1.0.3"
+  }
+}
