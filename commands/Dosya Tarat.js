@@ -1,7 +1,8 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { Client, MessageEmbed, MessageAttachment } = require("discord.js");
 const VirusTotalApi = require("virustotal-api");
-const virusTotal = new VirusTotalApi("988616a0cbe95e098dd2b2725cb922d88741ea31619f0f7729bc3858fc1b7da0");
+const { VTKEY } = require("../config.json")									
+const virusTotal = new VirusTotalApi(VTKEY);
 const wait = require('node:timers/promises').setTimeout;
 
 module.exports = {
