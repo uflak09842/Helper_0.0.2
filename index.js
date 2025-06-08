@@ -1,10 +1,8 @@
 //TANIMLAMALAR
 const { Client, Collection, Intents, Interaction, MessageEmbed, MessageActionRow, MessageButton, UserManager, Message, Guild } = require('discord.js');
 const fs = require('node:fs');
-/*const { type } = require('node:os'); gereksiz bu sanırım */
 const path = require('node:path');
 const { token } = require('./config.json');
-
 // END
 
 // Create a new client instance // Bütün izinleri aldık böylece
@@ -121,24 +119,6 @@ client.on('message', async (message) => {
 });
 */
 
-/* 
-    BOTUN EKLİ OLDU SUNUCUDAN ÇIKARMA !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	
-	if(message.content === '31') {
-		if(message.author.id !=='KENDİ ID Nİ GİR') 
-        return message.channel.send(`**»** ${message.author}, you don't have permission to do that!`);
-
-		client.guilds.cache.get("ÇIKCAN SUNUCU İD SİNİ GİR").leave()
-		message.reply('sunucu gg hacı gaçtım !')
-	}
-})
-*/
-/*client.on('guildMemberAdd', memberadd => {
-	const channel = memberadd.guild.channels.cache.find(channel => channel.id === "987015614897979392")
-	if(!channel) return;
-
-	channel.send('osbir')
-})
 
 client.on('guildMemberRemove', memberremove => {
 	const channel = memberremove.guild.channels.cache.find(channel => channel.id === "987015614897979392")
