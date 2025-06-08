@@ -1,7 +1,8 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 const { MovieDb } = require('moviedb-promise')
-const moviedb = new MovieDb('6c1d7c48d27222dd4b6b9f2a2b547116')
+const { TMDBAPI } = require(../config.json) 
+const moviedb = new MovieDb(TMDBAPI)
 
 module.exports = {
 	data: new SlashCommandBuilder()
